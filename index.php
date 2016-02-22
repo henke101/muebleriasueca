@@ -30,7 +30,7 @@
         <img src="logo.png" alt="Mueblería Sueca" >
       </a>
       <form>
-        <input type="search" name="search"><br> 
+        <input type="search" name="search" placeholder="Busca productos"><br> 
       </form>
       <ul>
         <li><a href="?page=catalog">Catálogo</a></li>
