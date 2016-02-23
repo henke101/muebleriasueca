@@ -1,6 +1,6 @@
 <ul>
     <li><a href="?catID=0">Productos populares</a></li>
-    <li><a href="?catID=1">Sillas</a></ul></li>
+    <li><a href="?catID=1">Sillas</a></li>
     <li><a href="?catID=2">Mesas</a></li>
     <li><a href="?catID=3">Estanterías</a></li>
     <li><a href="?catID=4">Escritórios</a></li>

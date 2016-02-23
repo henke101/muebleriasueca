@@ -15,8 +15,8 @@
 	<img src="carousel_bg.png" alt="bg_image">
 	<img src="carousel_bg2.png" alt="bg_image">
 	<p>CAMA Henrik <br> 2.000.000 Gs</p>
-	<a href="">Next</a>
-	<a href="">Previous</a>
+	<a class="arrow arrow-next" href="">Next</a>
+	<a class="arrow arrow-prev" href="">Previous</a>
 </div>
 <div>
 	<article>
