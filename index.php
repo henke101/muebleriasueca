@@ -21,7 +21,7 @@
 <!doctype html>
 <html lang="es-PY">
   <head>
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300,400,700' rel='stylesheet' type='text/css'>
     <meta charset="utf-8">
     <title>Muebleria Sueca</title>
     <link rel="stylesheet" type="text/css" href="style.css">
@@ -29,13 +29,14 @@
   <body>
     <header>
       <div class="content">
-        <a href="?page=home">
+        <a class="logo" href="?page=home">
           <img src="logo.png" alt="Mueblería Sueca" >
         </a>
-        <form>
-          <input type="search" name="search" placeholder="Busca productos"><br> 
+        <form class="search">
+          <input type="search" name="search" placeholder="Busca productos"> 
         </form>
-        <ul>
+        <br>
+        <ul class="main_nav">
           <li><a href="?page=catalog">Catálogo</a></li>
           <li><a href="?page=offers">Ofertas</a></li>
           <li><a href="?page=solutions">Soluciones completos</a></li>
