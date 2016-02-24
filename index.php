@@ -21,7 +21,7 @@
 <!doctype html>
 <html lang="es-PY">
   <head>
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300,400,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700' rel='stylesheet' type='text/css'>
     <meta charset="utf-8">
     <title>Muebleria Sueca</title>
     <link rel="stylesheet" type="text/css" href="style.css">
