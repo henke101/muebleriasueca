@@ -124,9 +124,10 @@ footer .content .footer_foot {
 	padding-top: 20;
 	padding-bottom: 30px;
 	width: 100%;
-	font-weight: 300;
-	font-size: 12px;
-    color: rgba(255,255,255,0.6);
+	font-weight: 600;
+	font-size: 11px;
+    color: rgba(255,255,255,1);
+    font-weight: 600;
 }
 .catalog_nav {
 	font-size: 14px;
