@@ -106,7 +106,7 @@
 
         </div>
         <div class="footer_foot">
-          <p><small>Hecho por Henrik Andersson, 2016</small></p>
+          <p><small>Snickrad av Henrik Andersson, 2016</small></p>
         </div> 
       </div> 
     </footer>

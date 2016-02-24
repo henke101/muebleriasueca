@@ -147,6 +147,11 @@ footer .content .footer_foot {
     margin-right: 10px;
     margin-bottom: 10px;
 }
+.prod_thumb img:hover {
+	border-color: rgba(0,0,0,0.09);
+    box-shadow: 0 0 13px rgba(0,0,0,0.19)
+
+}
 .prod_thumb_text {
 	position: absolute;
     top: 259px;
@@ -161,7 +166,7 @@ footer .content .footer_foot {
 
 }
 .prod_thumb_descr {
-	font-weight: 300;
+	font-weight: 400;
 	display: inline-block;
 }
 .prod_thumb_price {
