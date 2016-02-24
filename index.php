@@ -57,17 +57,18 @@
         <div>
           <h1>Contáctenos</h1>
           <p>
-            Lun- Vie 10-19, Sab 10-16
-            Cruz del Chaco 272  c/ Quesada
-            Mcal Lopez, Asunción - Paraguay
-            Teléfono: 0986-764-414
-            WhatsApp: 0986-764-414
+            Lun- Vie 10-19, Sab 10-16 <br>
+            Cruz del Chaco 272  c/ Quesada<br>
+            Mcal Lopez, Asunción - Paraguay<br>
+            <br>
+            Teléfono: 0986-764-414<br>
+            WhatsApp: 0986-764-414<br>
             E-mail: sales@bitsnbytes.com.py
           </p>
-          <a href="https://www.facebook.com/Muebleria-Sueca-Paraguay-801967969840543/">
+          <a class="soc_media_link" href="https://www.facebook.com/Muebleria-Sueca-Paraguay-801967969840543/">
             <img src="facebook.png" alt="Enlace a página de Facebook" >
           </a>
-          <a href="https://www.instagram.com/muebleriasueca/">
+          <a class="soc_media_link" href="https://www.instagram.com/muebleriasueca/">
             <img src="instagram.png" alt="Enlace a página de Instagram" >
           </a>
         </div>
@@ -76,14 +77,37 @@
           <p>
             Subscríbete a nuestro newsletter para recibir promociones exclusivos
           </p>
-          <form>
-            <input type="email" name="subscribe">
-            <input type="submit"> 
+          <form class="subscribe_form">
+            <input  class="subscribe_field" type="email" name="subscribe" placeholder="Ingresa tu Email">
+            <input class="subscribe_submit" type="submit" value="Enviar"> 
           </form>
         </div>
         <div>  
-          <h1>Instagram</h1>  
-        </div>  
+          <h1>Instagram</h1>
+          <a class="instagram_pic" href="https://www.instagram.com/muebleriasueca/">
+            <img src="http://placehold.it/128x128" alt="Foto de la página de Instagram" >
+          </a>
+          <a class="instagram_pic" href="https://www.instagram.com/muebleriasueca/">
+            <img src="http://placehold.it/128x128" alt="Foto de la página de Instagram" >
+          </a>
+          <a class="instagram_pic" href="https://www.instagram.com/muebleriasueca/">
+            <img src="http://placehold.it/128x128" alt="Foto de la página de Instagram" >
+          </a>
+          <br>
+          <a class="instagram_pic" href="https://www.instagram.com/muebleriasueca/">
+            <img src="http://placehold.it/128x128" alt="Foto de la página de Instagram" >
+          </a>
+          <a class="instagram_pic" href="https://www.instagram.com/muebleriasueca/">
+            <img src="http://placehold.it/128x128" alt="Foto de la página de Instagram" >
+          </a>
+          <a class="instagram_pic" href="https://www.instagram.com/muebleriasueca/">
+            <img src="http://placehold.it/128x128" alt="Foto de la página de Instagram" >
+          </a>
+
+        </div>
+        <div class="footer_foot">
+          <p><small>Hecho por Henrik Andersson, 2016</small></p>
+        </div> 
       </div> 
     </footer>
   </body>
