@@ -44,6 +44,10 @@ footer {
 	background-color: #255ca2;
 	color: #eeeeee;
 }
+footer h1 {
+	color: #f6e200;
+	text-transform: uppercase;
+}
 .content {
 	margin: 0 auto;
 	max-width: 1200px;
@@ -80,4 +84,7 @@ footer {
     background-position-x: 9px;
     font-weight: 300!important;
     font-size: 20px;
+}
+footer .content div {
+	max-width: 33%;
 }

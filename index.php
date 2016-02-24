@@ -54,30 +54,36 @@
     
     <footer>
       <div class="content">
-        <h1>Contáctenos</h1>
-        <p>
-          Lun- Vie 10-19, Sab 10-16
-          Cruz del Chaco 272  c/ Quesada
-          Mcal Lopez, Asunción - Paraguay
-          Teléfono: 0986-764-414
-          WhatsApp: 0986-764-414
-          E-mail: sales@bitsnbytes.com.py
-        </p>
-        <a href="https://www.facebook.com/Muebleria-Sueca-Paraguay-801967969840543/">
-          <img src="facebook.png" alt="Enlace a página de Facebook" >
-        </a>
-        <a href="https://www.instagram.com/muebleriasueca/">
-          <img src="instagram.png" alt="Enlace a página de Instagram" >
-        </a>
-        <h1>Newsletter</h1>
-        <p>
-          Subscríbete a nuestro newsletter para recibir promociones exclusivos
-        </p>
-        <form>
-          <input type="email" name="subscribe">
-          <input type="submit"> 
-        </form>
-        <h1>Instagram</h1>  
+        <div>
+          <h1>Contáctenos</h1>
+          <p>
+            Lun- Vie 10-19, Sab 10-16
+            Cruz del Chaco 272  c/ Quesada
+            Mcal Lopez, Asunción - Paraguay
+            Teléfono: 0986-764-414
+            WhatsApp: 0986-764-414
+            E-mail: sales@bitsnbytes.com.py
+          </p>
+          <a href="https://www.facebook.com/Muebleria-Sueca-Paraguay-801967969840543/">
+            <img src="facebook.png" alt="Enlace a página de Facebook" >
+          </a>
+          <a href="https://www.instagram.com/muebleriasueca/">
+            <img src="instagram.png" alt="Enlace a página de Instagram" >
+          </a>
+        </div>
+        <div>
+          <h1>Newsletter</h1>
+          <p>
+            Subscríbete a nuestro newsletter para recibir promociones exclusivos
+          </p>
+          <form>
+            <input type="email" name="subscribe">
+            <input type="submit"> 
+          </form>
+        </div>
+        <div>  
+          <h1>Instagram</h1>  
+        </div>  
       </div> 
     </footer>
   </body>
