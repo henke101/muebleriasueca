@@ -1,4 +1,4 @@
-<div class="white_bg">
+<div class="bg_container">
 	<h1 class="intro_title">Soluciones completos</h1>
 	<p class="intro_text">
 		Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut posuere consectetur massa. Vivamus accumsan convallis eleifend. Praesent imperdiet placerat nibh et posuere. Nam eget augue ac urna semper auctor sit amet ac tortor. Integer nisl velit, luctus ut felis eget, ornare rutrum libero. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut posuere consectetur massa.

@@ -198,7 +198,7 @@ footer .content .footer_foot {
 	margin-top: 60px;
 	margin-bottom: 36px;
 }
-.content .white_bg {
+.content .bg_container {
 	background-color: white;
     border-top: solid;
     border-color: #f6f6f6;
