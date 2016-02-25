@@ -315,7 +315,6 @@ footer .content .footer_foot {
 	color: #828282;
 	margin-top: 10px;
 }
-
 .before_after_links p {
 	display: inline-block;
 }
@@ -326,6 +325,19 @@ footer .content .footer_foot {
 .after_button {
 	color: #828282;
 }
+.showroom_text {
+	padding-top: 70px;
+}
+.find_us_title {
+	color: #255ca2;
+}
+.find_us {
+	padding-bottom: 80px;
+}
+.find_us img {
+	width: 100%;
+}
+
 /* Clearfix */
 .cf:before,
 .cf:after {
