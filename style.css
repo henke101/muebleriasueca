@@ -2,7 +2,7 @@ html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
 del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
+small, strike, strong, sub, tt, var,
 b, u, i, center, input
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
@@ -22,12 +22,16 @@ html {
 	font-family: 'Open Sans', sans-serif;
 }
 li {
-    list-style-type: none;
-    display:inline-block;
+	list-style-type: none;
+	display:inline-block;
 }
 a {
 	text-decoration: none;
 	color: #3d3d3d;
+}
+input {
+	border-radius: 4px;
+	border: hidden;
 }
 header {
 	background-color: #255ca2;
@@ -54,8 +58,8 @@ footer h1 {
 	max-width: 1200px;
 }
 main .content {
-    padding-top: 20px;
-    padding-bottom: 70px;
+	padding-top: 20px;
+	padding-bottom: 70px;
 }
 .main_nav {
 	clear: both;
@@ -80,15 +84,13 @@ main .content {
 .search input {
 	background: #fff url(hourglass.png) no-repeat scroll left center;
 	margin:0;
-    width:300px;
-    height: 40px;
-    padding-left:38px;
-    border-radius: 4px;
-    border: hidden;
-    background-size: 20px;
-    background-position-x: 9px;
-    font-weight: 300!important;
-    font-size: 17px;
+	width:300px;
+	height: 40px;
+	padding-left:38px;
+	background-size: 20px;
+	background-position-x: 9px;
+	font-weight: 300!important;
+	font-size: 17px;
 }
 footer .content div {
 	width: 33%;
@@ -108,12 +110,10 @@ footer p {
 	padding-top: 20px;
 }
 .subscribe_form input {
-	border-radius: 4px;
-    border: hidden;
-    width: 100px;
-    height: 35px;
-    padding: 0;
-    font-size: 16px;
+	width: 100px;
+	height: 35px;
+	padding: 0;
+	font-size: 16px;
 }
 .subscribe_form .subscribe_field {
 	width: 200px;
@@ -126,12 +126,12 @@ footer .content .footer_foot {
 	width: 100%;
 	font-weight: 600;
 	font-size: 11px;
-    color: rgba(255,255,255,1);
-    font-weight: 600;
+	color: rgba(255,255,255,1);
+	font-weight: 600;
 }
 .catalog_nav {
 	font-size: 14px;
-    padding-bottom: 20px;
+	padding-bottom: 20px;
 }
 .catalog_nav li {
 	padding-right: 40px;
@@ -146,20 +146,20 @@ footer .content .footer_foot {
 	display: inline-block;
 	vertical-align: top;
 	max-width: 286px;
-    margin-right: 10px;
-    margin-bottom: 10px;
+	margin-right: 10px;
+	margin-bottom: 10px;
 }
 .prod_thumb img:hover {
 	border-color: rgba(0,0,0,0.09);
-    box-shadow: 0 0 13px rgba(0,0,0,0.19)
+	box-shadow: 0 0 13px rgba(0,0,0,0.19)
 
 }
 .prod_thumb_text {
 	position: absolute;
-    top: 259px;
-    left: 30px;
-    color: #19467f;
-    font-size: 18px;
+	top: 259px;
+	left: 30px;
+	color: #19467f;
+	font-size: 18px;
 }
 .prod_thumb_text h1 {
 	text-transform: uppercase;
@@ -169,8 +169,8 @@ footer .content .footer_foot {
 }
 .prod_offer_text {
 	position: absolute;
-    top: 232px;
-    left: 30px;
+	top: 232px;
+	left: 30px;
 	text-transform: uppercase;
 	font-weight: 700;
 	color: #f6e200;
@@ -200,9 +200,10 @@ footer .content .footer_foot {
 }
 .content .bg_container {
 	background-color: white;
-    border-top: solid;
-    border-color: #f6f6f6;
-    border-width: 2px;
+	border-top: solid;
+	border-color: #f6f6f6;
+	border-width: 2px;
+	/* padding-bottom: 20px; */
 }
 .intro_text {
 	max-width: 890px;
@@ -214,11 +215,9 @@ footer .content .footer_foot {
 	margin: 0 auto;
 	padding-bottom: 30px;
 }
-.project_segment div{
-	/* display: inline-block; */
-	/* vertical-align: top; */
-	margin-top: 80px;
-	margin-bottom: 80px;
+.project_segment{
+	padding-top: 80px;
+	padding-bottom: 80px;
 }
 .project_foto_area {
 	max-width: 745px;
@@ -227,11 +226,11 @@ footer .content .footer_foot {
 .project_text_area {
 	float: left;
 	max-width: 354px;
-	padding: 35px 50px;
-    font-size: 20px;
-    font-weight: 300;
-    line-height: 30px;
-    color: #636363;
+	padding: 0 50px;
+	font-size: 20px;
+	font-weight: 300;
+	line-height: 30px;
+	color: #636363;
 }
 .project_text_area.opposite_segment {
 	float: right;
@@ -242,17 +241,82 @@ footer .content .footer_foot {
 
 .project_title {
 	color: #17365d;
-    font-size: 32px;
-    font-weight: 300;
-    margin-bottom: 35px;
+	font-size: 32px;
+	font-weight: 300;
+	margin-bottom: 35px;
+	margin-top: 50px;
 }
-.cf:before,
-.cf:after {
-    content: " ";
-    display: table;
+.floor_details li{
+	display: block;
+	line-height: 28px
+}
+.floor_text_name_det {
+	float: left;
+	width: 50%;
+}
+.floor_text_price_pic {
+	float: right;
+	width: 50%;
+}
+.floor_name {
+	font-size: 32px;
+	font-weight: 300;
+	text-transform: uppercase;
+	color: #17365d;
+	padding-bottom: 20px
+}
+.floor_details li:first-child {
+	font-weight: 400;
+}
+.floor_price_m2 {
+	font-size: 24px;
+	padding-bottom: 20px;
+	margin-top: -4px;
+}
+.floor_text_calc {
+	color: #8a8a8a;
+	font-size: 18px;
+	margin-top: 10px;
+}
+.floor_text_calc input {
+	height: 28px;
+}
+.floor_input_spinner {
+	border: solid;
+	border-width: 1px;
+	border-color: rgba(0,0,0,0.16);
+	margin-bottom: -3px;
+	padding-left: 5%;
+    width: 95%;
+}
+.floor_input_submit {
+	margin: 1px;
+	background-color: #255ca2;
+	color: white;
+    font-size: 17px;
+    font-weight: 300;
+    width: 100%;
+}
+.floor_precio_total {
+	text-align: center;
+	color: #255ca2;
+	font-size: 55px;
+	font-weight: 400;
+	line-height: 44px;
+	margin-top: 14px;
+}
+.floor_precio_total::first-line {
+	font-size: 15px;
+	color: #6f6f6f;
 }
 
+/* Clearfix */
+.cf:before,
 .cf:after {
-    clear: both;
+	content: " ";
+	display: table;
+}
+.cf:after {
+	clear: both;
 }
 
