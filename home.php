@@ -24,8 +24,8 @@
 			<p>CAMA Henrik</p>
 			<p>2.000.000 Gs</p>
 		</div>
-		<a class="arrow-next" href=""></a>
-		<a class="arrow-prev" href="">	</a>
+		<a class="arrow_next" href=""></a>
+		<a class="arrow_prev" href=""></a>
 	</div>
 </div>
 <div class="featured_prods">
@@ -81,7 +81,7 @@
 		- Latin guy, Rome, Italy
 	</p> -->
 </div>
-	<ul class="testimonial_buttons">
+	<ul class="carousel_ind testimonial_buttons">
 		<li><a href=""></a></li>
 		<li class="active"><a  href=""></a></li>
 		<li><a href=""></a></li>
