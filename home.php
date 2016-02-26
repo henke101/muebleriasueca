@@ -20,10 +20,12 @@
 	</div>
 	<div class="home_carousel">
 		<img src="carousel_bg.png" alt="bg_image">
-		<img src="carousel_bg2.png" alt="bg_image">
-		<p>CAMA Henrik <br> 2.000.000 Gs</p>
-		<a class="arrow arrow-next" href="">Next</a>
-		<a class="arrow arrow-prev" href="">Previous</a>
+		<div class="carousel_text">
+		<p>CAMA Henrik</p>
+		<p>2.000.000 Gs</p>
+		</div>
+		<a class="arrow-next" href=""></a>
+		<a class="arrow-prev" href=""></a>
 	</div>
 </div>
 <div class="featured_prods">

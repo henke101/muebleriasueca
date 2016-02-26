@@ -343,13 +343,13 @@ footer .content .footer_foot {
 }
 .home_floor_calc {
 	display: inline-block;
-	max-width: 296px;
+	max-width: 286px;
 	float: left;
 	position: relative;
 }
 .home_carousel {
 	display: inline-block;
-	max-width: 885px;
+	max-width: 894px;
 	float: right;
 	position: relative;
 }
@@ -358,12 +358,13 @@ footer .content .footer_foot {
 	position: absolute;
 	width: 258px;
 	color: white;
-	padding: 25px 19px;
+	padding: 25px 14px;
 	text-align: center;
 }
 .home_floor_calc img {
 	position: absolute;
 	top: 0;
+	width: 286px;
 }
 .home_floor_name {
 	font-size: 19px;
@@ -407,13 +408,43 @@ footer .content .footer_foot {
 .home_show_price {
 	margin-top: 8px
 }
+.home_carousel a {
+	position: absolute;
+	top: 121px;
+	left: 10px;
+	display: inline-block;
+	background-image: url('carousel_button.PNG');
+	width: 39px;
+	height: 104px;
+	margin: 0px 0px;
+}
+.home_carousel img {
+	width: 100%;
+}
+.home_carousel .arrow-next {
+	left: 843px;
+	text-align:right;
+	-moz-transform: scaleX(-1);
+	-o-transform: scaleX(-1);
+	-webkit-transform: scaleX(-1);
+	transform: scaleX(-1);
+	filter: FlipH;
+	-ms-filter: "FlipH";
+}
+	.carousel_text {
+		position: absolute;
+		top: 170px;
+		left: 260px;
+		font-size: 42px;
+		font-weight: 700;
+	}
 
-/* Clearfix */
-.cf:before,
-.cf:after {
-	content: " ";
-	display: table;
-}
-.cf:after {
-	clear: both;
-}
+	/* Clearfix */
+	.cf:before,
+	.cf:after {
+		content: " ";
+		display: table;
+	}
+	.cf:after {
+		clear: both;
+	}
