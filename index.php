@@ -35,7 +35,6 @@
         <form class="search">
           <input type="search" name="search" placeholder="Busca productos"> 
         </form>
-        <br>
         <ul class="main_nav">
           <li><a href="?page=catalog">Catálogo</a></li>
           <li><a href="?page=offers">Ofertas</a></li>
