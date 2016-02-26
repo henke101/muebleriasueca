@@ -439,20 +439,46 @@ footer .content .footer_foot {
 	filter: FlipH;
 	-ms-filter: "FlipH";
 }
-	.carousel_text {
-		position: absolute;
-		top: 170px;
-		left: 260px;
-		font-size: 42px;
-		font-weight: 700;
-	}
+.home_carousel_text {
+	position: absolute;
+	top: 170px;
+	left: 260px;
+	font-size: 42px;
+	font-weight: 700;
+}
+.testimonials_carousel {
+	background-color: #fff;
+	color: #c1c1c1;
+	text-align: center;
+	padding: 46px 86px;
+	font-size: 22px;
+	line-height: 38px;
+}
+.testimonial p:last-child {
+	color: #979797;
+	/* line-height: 80px; */
+	padding: 26px;
+}
+.testimonial_buttons li {
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    margin: 2px;
+    /* text-indent: -999px; */
+    cursor: pointer;
+    background-color: #c1c1c1;
+    border-radius: 17px;
+}
+.testimonial_buttons li.active {
+    background-color: #255ca2;
+}
 
-	/* Clearfix */
-	.cf:before,
-	.cf:after {
-		content: " ";
-		display: table;
-	}
-	.cf:after {
-		clear: both;
-	}
+/* Clearfix */
+.cf:before,
+.cf:after {
+	content: " ";
+	display: table;
+}
+.cf:after {
+	clear: both;
+}

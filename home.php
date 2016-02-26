@@ -70,19 +70,21 @@
 		</a>
 	</article>
 </div>
-<div class="testimonials">
-	<p>
-		“That Muebleria Sueca shit, it was aight, it was aighty ouknowI'msayin, that shit was aight, it was cool. But my shit is J--more John Blaze than that! I got John Blaze shit” <br>
-		- The Madd Rapper, N.Y, USA
-	</p>
-	<p>
+<div class="testimonials_carousel">
+	<div class="testimonial">
+		<p>
+			“That Muebleria Sueca shit, it was aight, it was aighty ouknowI'msayin, that shit was aight, it was cool. But my shit is J--more John Blaze than that! I got John Blaze shit”
+		</p>
+		<p>- The Madd Rapper, N.Y, USA</p>
+	<!-- <p>
 		“Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut posuere consectetur massa. Vivamus accumsan convallis eleifend. Praesent imperdiet placerat nibh et posuere.” <br>
 		- Latin guy, Rome, Italy
-	</p>
-	<ul>
-		<li><a href="">Testimonio1</a></li>
-		<li><a href="">Testimonio2</a></li>
-		<li><a href="">Testimonio3</a></li>
-		<li><a href="">Testimonio4</a></li>
+	</p> -->
+</div>
+	<ul class="testimonial_buttons">
+		<li><a href=""></a></li>
+		<li class="active"><a  href=""></a></li>
+		<li><a href=""></a></li>
+		<li><a href=""></a></li>
 	</ul>
 </div>
