@@ -11,21 +11,21 @@
 					<input class="floor_input_submit" type="submit" value="Calcular">
 				</form>
 				<div class="home_show_price">
-				<p class="home_price_descr">Tu precio total sería</p>
-				<p class="home_total_price">98.485.000 Gs</p>
-			</div>
+					<p class="home_price_descr">Tu precio total sería</p>
+					<p class="home_total_price">98.485.000 Gs</p>
+				</div>
 			</div>
 		</div>
 		<img src="floor_calc_bg.png" alt="bg_image">
 	</div>
 	<div class="home_carousel">
 		<img src="carousel_bg.png" alt="bg_image">
-		<div class="carousel_text">
-		<p>CAMA Henrik</p>
-		<p>2.000.000 Gs</p>
+		<div class="home_carousel_text">
+			<p>CAMA Henrik</p>
+			<p>2.000.000 Gs</p>
 		</div>
 		<a class="arrow-next" href=""></a>
-		<a class="arrow-prev" href=""></a>
+		<a class="arrow-prev" href="">	</a>
 	</div>
 </div>
 <div class="featured_prods">

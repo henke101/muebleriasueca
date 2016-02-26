@@ -355,7 +355,7 @@ footer .content .footer_foot {
 }
 .home_carousel {
 	display: inline-block;
-	max-width: 894px;
+	max-width: 896px;
 	float: right;
 	position: relative;
 }
@@ -371,6 +371,7 @@ footer .content .footer_foot {
 	position: absolute;
 	top: 0;
 	width: 286px;
+	height: 346px;
 }
 .home_floor_name {
 	font-size: 19px;
@@ -426,6 +427,7 @@ footer .content .footer_foot {
 }
 .home_carousel img {
 	width: 100%;
+	height: 100%;
 }
 .home_carousel .arrow-next {
 	left: 843px;
