@@ -147,8 +147,11 @@ footer .content .footer_foot {
 	display: inline-block;
 	vertical-align: top;
 	max-width: 286px;
-	margin-right: 10px;
+	margin-right: 14px;
 	margin-bottom: 10px;
+}
+.prod_thumb:nth-child(4n+0) {
+	margin-right: 0;
 }
 .prod_thumb img:hover {
 	border-color: rgba(0,0,0,0.09);
@@ -340,6 +343,9 @@ footer .content .footer_foot {
 }
 .find_us img {
 	width: 100%;
+}
+.home_top{
+	margin-bottom: 10px;
 }
 .home_floor_calc {
 	display: inline-block;

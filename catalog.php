@@ -10,83 +10,85 @@
 	<li><a href="?catID=8">Niños</a></li>
 	<li><a href="?catID=9">Otros</a></li>
 </ul>
-<article class="prod_thumb">
-	<div class="prod_thumb_text">
-		<h1>MALM</h1>
-		<p class="prod_thumb_descr">Cama</p>
-		<p class="prod_thumb_price">3.000.000 Gs</p>
-	</div>
-	<a href="?page=product">
-		<img src="http://placehold.it/286x382">
-	</a>
-</article>
-<article class="prod_thumb">
-	<div class="prod_thumb_text">
-		<h1>MALM</h1>
-		<p class="prod_thumb_descr">Cama</p>
-		<p class="prod_thumb_price">3.000.000 Gs</p>
-	</div>
-	<a href="?page=product">
-		<img src="http://placehold.it/286x382">
-	</a>
-</article>
-<article class="prod_thumb">
-	<div class="prod_thumb_text">
-		<h1>MALM</h1>
-		<p class="prod_thumb_descr">Cama</p>
-		<p class="prod_thumb_price">3.000.000 Gs</p>
-	</div>
-	<a href="?page=product">
-		<img src="http://placehold.it/286x382">
-	</a>
-</article>
-<article class="prod_thumb">
-	<div class="prod_thumb_text">
-		<h1>MALM</h1>
-		<p class="prod_thumb_descr">Cama</p>
-		<p class="prod_thumb_price">3.000.000 Gs</p>
-	</div>
-	<a href="?page=product">
-		<img src="http://placehold.it/286x382">
-	</a>
-</article>
-<article class="prod_thumb">
-	<div class="prod_thumb_text">
-		<h1>MALM</h1>
-		<p class="prod_thumb_descr">Cama</p>
-		<p class="prod_thumb_price">3.000.000 Gs</p>
-	</div>
-	<a href="?page=product">
-		<img src="http://placehold.it/286x382">
-	</a>
-</article>
-<article class="prod_thumb">
-	<div class="prod_thumb_text">
-		<h1>MALM</h1>
-		<p class="prod_thumb_descr">Cama</p>
-		<p class="prod_thumb_price">3.000.000 Gs</p>
-	</div>
-	<a href="?page=product">
-		<img src="http://placehold.it/286x382">
-	</a>
-</article>
-<article class="prod_thumb">
-	<div class="prod_thumb_text">
-		<h1>MALM</h1>
-		<p class="prod_thumb_descr">Cama</p>
-		<p class="prod_thumb_price">3.000.000 Gs</p>
-	</div>
-	<a href="?page=product">
-		<img src="http://placehold.it/286x382">
-	</a>
-</article>
-<article class="prod_thumb">
-	<div class="prod_thumb_text">
-		<h1>MALM</h1>
-		<p class="prod_thumb_descr">Cama</p>
-		<p class="prod_thumb_price">3.000.000 Gs</p>
-	</div>
-	<a href="?page=product">
-		<img src="http://placehold.it/286x382">
-	</a>
-</article>
+<div>
+	<article class="prod_thumb">
+		<div class="prod_thumb_text">
+			<h1>MALM</h1>
+			<p class="prod_thumb_descr">Cama</p>
+			<p class="prod_thumb_price">3.000.000 Gs</p>
+		</div>
+		<a href="?page=product">
+			<img src="http://placehold.it/286x382">
+		</a>
+	</article>
+	<article class="prod_thumb">
+		<div class="prod_thumb_text">
+			<h1>MALM</h1>
+			<p class="prod_thumb_descr">Cama</p>
+			<p class="prod_thumb_price">3.000.000 Gs</p>
+		</div>
+		<a href="?page=product">
+			<img src="http://placehold.it/286x382">
+		</a>
+	</article>
+	<article class="prod_thumb">
+		<div class="prod_thumb_text">
+			<h1>MALM</h1>
+			<p class="prod_thumb_descr">Cama</p>
+			<p class="prod_thumb_price">3.000.000 Gs</p>
+		</div>
+		<a href="?page=product">
+			<img src="http://placehold.it/286x382">
+		</a>
+	</article>
+	<article class="prod_thumb">
+		<div class="prod_thumb_text">
+			<h1>MALM</h1>
+			<p class="prod_thumb_descr">Cama</p>
+			<p class="prod_thumb_price">3.000.000 Gs</p>
+		</div>
+		<a href="?page=product">
+			<img src="http://placehold.it/286x382">
+		</a>
+	</article>
+	<article class="prod_thumb">
+		<div class="prod_thumb_text">
+			<h1>MALM</h1>
+			<p class="prod_thumb_descr">Cama</p>
+			<p class="prod_thumb_price">3.000.000 Gs</p>
+		</div>
+		<a href="?page=product">
+			<img src="http://placehold.it/286x382">
+		</a>
+	</article>
+	<article class="prod_thumb">
+		<div class="prod_thumb_text">
+			<h1>MALM</h1>
+			<p class="prod_thumb_descr">Cama</p>
+			<p class="prod_thumb_price">3.000.000 Gs</p>
+		</div>
+		<a href="?page=product">
+			<img src="http://placehold.it/286x382">
+		</a>
+	</article>
+	<article class="prod_thumb">
+		<div class="prod_thumb_text">
+			<h1>MALM</h1>
+			<p class="prod_thumb_descr">Cama</p>
+			<p class="prod_thumb_price">3.000.000 Gs</p>
+		</div>
+		<a href="?page=product">
+			<img src="http://placehold.it/286x382">
+		</a>
+	</article>
+	<article class="prod_thumb">
+		<div class="prod_thumb_text">
+			<h1>MALM</h1>
+			<p class="prod_thumb_descr">Cama</p>
+			<p class="prod_thumb_price">3.000.000 Gs</p>
+		</div>
+		<a href="?page=product">
+			<img src="http://placehold.it/286x382">
+		</a>
+	</article>
+</div>
