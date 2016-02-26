@@ -1,17 +1,19 @@
 <div class="home_top cf">
 	<div class="home_floor_calc">
 		<div class="home_floor_calc_content">
-			<h1 class="startpage_floor_name">Hora de cambiar suelos?</h1>
-			<p class="startpage_floor_descr"> Our floors are much more cheap than in the other stores and are fucking amazing and all that. You’d be a retard not to buy them! Starting from only 99.000 Gs/m<sup>2</sup>. Use the calculator to see your price!
+			<h1 class="home_floor_name">Hora de cambiar suelos?</h1>
+			<p class="home_floor_descr"> Our floors are much more cheap than in the other stores and are fucking amazing and all that. You’d be a retard not to buy them! Starting from only 99.000 Gs/m<sup>2</sup>. Use the calculator to see your price!
 			</p>
-			<a href="?page=floors">View the floor special</a>
+			<a class="go_to_floor_page" href="?page=floors">Go to the floor special</a>
 			<div class="floor_text_calc">
 				<form>
-					<input class="floor_input_spinner" type="number" placeholder="Calcule el precio aquí, p. ej. 25 m2"  min="0"><br>
+					<input class="floor_input_spinner" type="number" placeholder="Por ejemplo 25 m2"  min="0"><br>
 					<input class="floor_input_submit" type="submit" value="Calcular">
 				</form>
-				<p class="startpage_precio_total"> Tu precio total sería <br> 1.485.000 Gs
-				</p>
+				<div class="home_show_price">
+				<p class="home_price_descr">Tu precio total sería</p>
+				<p class="home_total_price">98.485.000 Gs</p>
+			</div>
 			</div>
 		</div>
 		<img src="floor_calc_bg.png" alt="bg_image">
