@@ -25,7 +25,8 @@
 					<input class="floor_input_spinner" type="number" placeholder="Por ejemplo 25 m2"  min="0"><br>
 					<input class="floor_input_submit" type="submit" value="Calcular">
 				</form>
-				<p class="floor_precio_total"> Tu precio total sería <br> 1.485.000 Gs</p>
+				<p class="floors_price_descr"> Tu precio total sería</p>
+				<p class="floors_total_price"> 1.485.000 Gs</p>
 			</div>
 		</div>
 		<div class="project_foto_area">
@@ -61,7 +62,8 @@
 					<input class="floor_input_spinner" type="number" placeholder="Por ejemplo 25 m2"  min="0"><br>
 					<input class="floor_input_submit" type="submit" value="Calcular">
 				</form>
-				<p class="floor_precio_total"> Tu precio total sería <br> 882.985.000 Gs</p>
+				<p class="floors_price_descr"> Tu precio total sería</p>
+				<p class="floors_total_price"> 88.485.000 Gs</p>
 			</div>
 		</div>
 		<div class="project_foto_area">

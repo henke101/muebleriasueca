@@ -328,7 +328,7 @@ footer .content .footer_foot {
 	color: #8a8a8a;
 	font-size: 18px;
 	padding-top: 27px;
-	max-width: 190px;
+	/* max-width: 190px; */
 	/* height: 50px; */
 	margin: 0 auto;
 }
@@ -351,17 +351,21 @@ footer .content .footer_foot {
 	font-weight: 300;
 	width: 100%;
 }
-.floor_precio_total {
+.floors_total_price {
 	text-align: center;
 	color: #255ca2;
 	font-size: 48px;
 	font-weight: 400;
 	line-height: 44px;
-	margin-top: 14px;
+	/* margin-top: 14px; */
 }
-.floor_precio_total::first-line {
-	font-size: 15px;
+.floors_price_descr {
+	font-size: 16px;
 	color: #6f6f6f;
+	text-align: center;
+	margin-top: 20px;
+	font-weight: 400;
+	margin-bottom: 4px;
 }
 .before_after_links {
 	text-align: center;
@@ -444,6 +448,7 @@ footer .content .footer_foot {
 .home_floor_calc .floor_text_calc {
 	font-size: 18px;
 	padding-top: 21px;
+	max-width: 196px;
 	/* max-width: 190px; */
 	/* height: 50px; */
 }
@@ -550,7 +555,7 @@ footer .content .footer_foot {
 }
 .prod_display nav {
 	padding: 18px 25px;
-	font-size: 22px;
+	font-size: 16px;
 }
 .prod_display_text h1{
 	font-size: 35px;
