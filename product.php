@@ -1,5 +1,5 @@
 <section class="prod_display">
-	<nav>
+	<nav class="breadcrumbs">
 		<ol>
 			<li><a href="?page=catalog">CATÁLOGO</a></li>
 			<li><p> / </p></li>
@@ -10,10 +10,8 @@
 	</nav>
 	<div class="prod_display_foto">
 		<img src="prod_lack.png" alt="Mesa Lack">
-		<div class="arrows">
-			<a class="arrow_prev" href=""></a>
-			<a class="arrow_next" href=""></a>
-		</div>
+		<a class="arrow_prev" href=""></a>
+		<a class="arrow_next" href=""></a>
 		<ul class="carousel_ind prod_disp_buttons">
 			<li><a href=""></a></li>
 			<li class="active"><a  href=""></a></li>
@@ -30,9 +28,9 @@
 				<div><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut posuere consectetur massa.</p></div>
 				<div><p>
 					<ul>
-						<li><p>Longitud: 55 cm</p></li>
-						<li><p>Ancho: 55 cm</p></li>
-						<li><p>Altura: 45 cm</p></li>
+						<li><p>Longitud: 55 cm<br></p></li>
+						<li><p>Ancho: 55 cm<br></p></li>
+						<li><p>Altura: 45 cm<br></p></li>
 					</ul>
 				</p>
 			</div>
@@ -46,12 +44,11 @@
 		</div>
 	</div>
 </div>
-
 </section>
+<p class="see_also_label">Véase también</p>
 <section class="see_also">
-	<p>Véase también</p>
-	<a class="arrow arrow-prev" href="">Prev</a>
-	<a class="arrow arrow-next" href="">Next</a>
+	<a class="arrow_prev" href=""></a>
+	<a class="arrow_next" href=""></a>
 	<div class="featured_prods">
 		<article class="prod_thumb">
 			<div class="prod_thumb_text">
@@ -60,7 +57,7 @@
 				<p class="prod_thumb_price">3.000.000 Gs</p>
 			</div>
 			<a href="?page=product">
-				<img src="http://placehold.it/286x382">
+				<img src="http://bitsnbytes.com.py/images/productImages/LACK-1%20200.114.08.JPG">
 			</a>
 		</article>
 		<article class="prod_thumb">
@@ -70,7 +67,7 @@
 				<p class="prod_thumb_price">3.000.000 Gs</p>
 			</div>
 			<a href="?page=product">
-				<img src="http://placehold.it/286x382">
+				<img src="http://bitsnbytes.com.py/images/productImages/LACK-1%20200.114.08.JPG">
 			</a>
 		</article>
 		<article class="prod_thumb">
@@ -80,7 +77,7 @@
 				<p class="prod_thumb_price">3.000.000 Gs</p>
 			</div>
 			<a href="?page=product">
-				<img src="http://placehold.it/286x382">
+				<img src="http://bitsnbytes.com.py/images/productImages/LACK-1%20200.114.08.JPG">
 			</a>
 		</article>
 		<article class="prod_thumb">
@@ -90,7 +87,7 @@
 				<p class="prod_thumb_price">3.000.000 Gs</p>
 			</div>
 			<a href="?page=product">
-				<img src="http://placehold.it/286x382">
+				<img src="http://bitsnbytes.com.py/images/productImages/LACK-1%20200.114.08.JPG">
 			</a>
 		</article>
 	</div>
