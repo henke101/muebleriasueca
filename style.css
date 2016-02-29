@@ -178,11 +178,27 @@ footer .content .footer_foot {
 	max-width: 286px;
 	margin-right: 14px;
 	margin-bottom: 10px;
+	background-color: #fff;
 }
 .prod_thumb:nth-child(4n+0) {
 	margin-right: 0;
 }
-.prod_thumb img:hover {
+.prod_thumb a {
+	display: block;
+	position: relative;
+	height: 382px;
+	width: 286px;
+}
+.prod_thumb img {
+	/*position: absolute;
+    top: 38px;
+    left: 32px;*/
+	position: absolute;
+	max-width: 220px;
+	top: 24px;
+	left: 37px;
+}
+.prod_thumb:hover {
 	border-color: rgba(0,0,0,0.09);
 	box-shadow: 0 0 13px rgba(0,0,0,0.19)
 
@@ -193,6 +209,7 @@ footer .content .footer_foot {
 	left: 30px;
 	color: #19467f;
 	font-size: 18px;
+	z-index: 1;
 }
 .prod_thumb_text h1 {
 	text-transform: uppercase;
