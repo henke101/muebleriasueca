@@ -378,12 +378,14 @@ footer .content .footer_foot {
 .before_after_links p {
 	display: inline-block;
 }
-.before_button {
+.before_after_links a {
 	color: #255ca2;
 	font-weight: 300;
 }
-.after_button {
+.before_after_links .active {
 	color: #828282;
+	font-weight: 400;
+	cursor: default;
 }
 .showroom_text {
 	padding-top: 70px;
@@ -628,6 +630,12 @@ footer .content .footer_foot {
 		border: 0;
 		width: 100%;
 		height: 320px;
+	}
+	.project_foto_area .after, .project_foto_area .before{
+		display: none;
+	} 
+	.project_foto_area .active {
+		display: inline-block;
 	}
 	/* Clearfix */
 	.cf:before,

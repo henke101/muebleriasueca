@@ -31,12 +31,13 @@
 			</div>
 		</div>
 		<div class="project_foto_area">
-			<!-- <img src="before_slatten.png" alt="Antes Slatten"> -->
-			<img src="after_slatten.png" alt="Después Slatten">
+			<!-- <img src="<before_slatten class="p"></before_slatten>ng" alt="Antes Slatten"> -->
+			<img class="after active" src="after_slatten.png" alt="Después Slatten">
+			<img class="before" src="before_slatten.png" alt="Antes Slatten">
 			<div class="before_after_links">
 				<a class="before_button" href="#">Antes</a>
 				<p>|</p>
-				<a class="after_button" href="#">Después</a>
+				<a class="after_button active" href="#">Después</a>
 			</div>
 		</div>
 	</div>
@@ -70,11 +71,12 @@
 		</div>
 		<div class="project_foto_area">
 			<!-- <img src="before_slatten.png" alt="Antes Slatten"> -->
-			<img src="after_tundra.png" alt="Después Tundra">
+			<img class="after active" src="after_tundra.png" alt="Después Tundra">
+			<img class="before" src="before_tundra.png" alt="Antes Tundra">
 			<div class="before_after_links">
 				<a class="before_button" href="#">Antes</a>
 				<p>|</p>
-				<a class="after_button" href="#">Después</a>
+				<a class="after_button active" href="#">Después</a>
 			</div>
 		</div>
 	</div>

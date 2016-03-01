@@ -23,3 +23,23 @@
     	strArr.unshift(""+Math.floor(price));
     	return strArr.join("");
     }
+
+    $(".project_foto_area").each(function(){
+    	var $fotoArea = $(this);
+
+    	$fotoArea.find(".before_button").on("click", function(evt){
+    		evt.preventDefault();
+    		$fotoArea.find(".before").addClass('active');
+    		$fotoArea.find(".after").attr('class', 'after');
+    		$fotoArea.find(".before_button").addClass('active');
+    		$fotoArea.find(".after_button").attr('class', 'after_button');
+    	});
+    	$fotoArea.find(".after_button").on("click", function(evt){
+    		evt.preventDefault();
+    		$fotoArea.find(".after").addClass('active');
+    		$fotoArea.find(".before").attr('class', 'before');
+    		$fotoArea.find(".after_button").addClass('active');
+    		$fotoArea.find(".before_button").attr('class', 'before_button');
+    		
+    	});
+    });
