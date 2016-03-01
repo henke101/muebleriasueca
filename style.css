@@ -610,6 +610,15 @@ footer .content .footer_foot {
 	.featured_prods .prod_thumb {
 		margin-bottom: 0; 
 	}
+	.search_results_text {
+		color: #255ca2;
+		margin-bottom: 5px;
+	}
+	.map {
+		border: 0;
+		width: 100%;
+		height: 320px;
+	}
 	/* Clearfix */
 	.cf:before,
 	.cf:after {
@@ -618,4 +627,7 @@ footer .content .footer_foot {
 	}
 	.cf:after {
 		clear: both;
+	}
+	input:-webkit-autofill, textarea:-webkit-autofill, select:-webkit-autofill {
+		-webkit-box-shadow: 0 0 0px 1000px white inset;
 	}
