@@ -11,9 +11,9 @@
 	<div class="prod_display_foto carousel">
 		<ul class="prod_pics carousel_show">
 		<li class="active"><img src="prod_lack.png" alt="Mesa Lack"></li>
-		<li><img src="prod_lack.png" alt="Mesa Lack"></li>
-		<li><img src="prod_lack.png" alt="Mesa Lack"></li>
-		<li><img src="prod_lack.png" alt="Mesa Lack"></li>
+		<li><img src="prod_lack1.png" alt="Mesa Lack"></li>
+		<li><img src="prod_lack2.png" alt="Mesa Lack"></li>
+		<li><img src="prod_lack3.png" alt="Mesa Lack"></li>
 		</ul>
 		<a class="arrow_prev" href=""></a>
 		<a class="arrow_next" href=""></a>

@@ -17,11 +17,22 @@
 		</div>
 	</div>
 	<div class="home_carousel carousel">
-		<img src="carousel_bg.png" alt="bg_image"> <!--  @TODO Change from img to BG image! -->
-		<div class="home_carousel_text carousel_show" >
-			<p>CAMA Henrik</p>
-			<p>2.000.000 Gs</p>
-		</div>
+		<ul class="carousel_show">
+			<li class="active">
+				<img src="carousel_bg.png" alt="bg_image">
+				<div class="home_carousel_text" >
+					<p>CAMA Henrik</p>
+					<p>2.000.000 Gs</p>
+				</div>
+			</li>
+			<li>
+				<img src="carousel_bg.png" alt="bg_image">
+				<div class="home_carousel_text" >
+					<p>CAMA Johan</p>
+					<p>1.230.000 Gs</p>
+				</div>
+			</li>
+		</ul>
 		<a class="arrow_next" href=""></a>
 		<a class="arrow_prev" href=""></a>
 	</div>

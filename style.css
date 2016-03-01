@@ -193,10 +193,10 @@ footer .content .footer_foot {
 	/*position: absolute;
     top: 38px;
     left: 32px;*/
-	position: absolute;
-	max-width: 220px;
-	top: 24px;
-	left: 37px;
+    position: absolute;
+    max-width: 220px;
+    top: 24px;
+    left: 37px;
 }
 .prod_thumb:hover {
 	border-color: rgba(0,0,0,0.09);
@@ -522,106 +522,106 @@ footer .content .footer_foot {
 	/* line-height: 80px; */
 	padding: 26px;
 }
-.testimonial li {
+/*.testimonial li {
 	display: none;
 }
 .testimonial .active {
 	display: inline-block;
-}
-.carousel_ind li {
-	display: inline-block;
-	width: 14px;
-	height: 14px;
-	margin: 2px;
-	/* text-indent: -999px; */
-	cursor: pointer;
-	background-color: #c1c1c1;
-	border-radius: 17px;
-}
-.carousel_ind li.active {
-	background-color: #255ca2;
-}
-.breadcrumbs li {
-	color: #255CA2;
-}
-.breadcrumbs a {
-	color: #255CA2;
-	text-decoration: underline;
-}
-.breadcrumbs li:last-child {
-	color: #bfbfbf;
-	font-weight: 300;
-}
-.prod_display .prod_display_foto .arrow_next, .prod_display .prod_display_foto .arrow_prev {
-	background-image: url('carousel_arrow_small.png');
-	height: 83px;
-	width: 36px;
-	display: inline-block;
-	text-align: left;
-	position: absolute;
-	top: 144px;
-}
-.prod_display .prod_display_foto .arrow_next {
-	left: 546px;
-}
-.prod_display .prod_display_foto .arrow_prev {
-	left: -117px;
-}
-.prod_display nav {
-	padding: 18px 25px;
-	font-size: 16px;
-}
-.prod_display_text h1{
-	font-size: 35px;
-	color: #255ca2;
-}
-.prod_type {
-	
-	font-size: 21px;
-	
-	color: #9d9d9d;
-	
-	font-weight: 300;
-}
-.prod_price {
-	
-	font-size: 58px;
-	
-	font-weight: 700;
-	
-	color: #f6e200;
-}
-.prod_descr {
-	font-size: 18px;
-	font-weight: 400;
-	color: #9d9d9d;
-	max-width: 250px;line-height: 20px;}
-	.prod_descr div {	
-		margin-top: 20px;
+	}*/
+	.carousel_ind li {
+		display: inline-block;
+		width: 14px;
+		height: 14px;
+		margin: 2px;
+		/* text-indent: -999px; */
+		cursor: pointer;
+		background-color: #c1c1c1;
+		border-radius: 17px;
 	}
-	.prod_descr div:first-child {	
-		margin-top: 20px;
+	.carousel_ind li.active {
+		background-color: #255ca2;
+	}
+	.breadcrumbs li {
+		color: #255CA2;
+	}
+	.breadcrumbs a {
+		color: #255CA2;
+		text-decoration: underline;
+	}
+	.breadcrumbs li:last-child {
+		color: #bfbfbf;
 		font-weight: 300;
 	}
-	.prod_descr li {
-		display: block;
+	.prod_display .prod_display_foto .arrow_next, .prod_display .prod_display_foto .arrow_prev {
+		background-image: url('carousel_arrow_small.png');
+		height: 83px;
+		width: 36px;
+		display: inline-block;
+		text-align: left;
+		position: absolute;
+		top: 144px;
 	}
-	.prod_disp_buttons {
-		margin-top: 35px;
+	.prod_display .prod_display_foto .arrow_next {
+		left: 546px;
 	}
-	.see_also_label {
-		font-size: 20px;
-		text-transform: uppercase;
-		color: #255CA2;
-		margin-top: 20px;
+	.prod_display .prod_display_foto .arrow_prev {
+		left: -117px;
 	}
-	.see_also .arrow_next, .see_also .arrow_prev {
-		top: 140px;
-	} 
-	.see_also .arrow_next {
-		left: 1159px;
+	.prod_display nav {
+		padding: 18px 25px;
+		font-size: 16px;
 	}
-	.see_also .featured_prods .prod_thumb {
+	.prod_display_text h1{
+		font-size: 35px;
+		color: #255ca2;
+	}
+	.prod_type {
+
+		font-size: 21px;
+
+		color: #9d9d9d;
+
+		font-weight: 300;
+	}
+	.prod_price {
+
+		font-size: 58px;
+
+		font-weight: 700;
+
+		color: #f6e200;
+	}
+	.prod_descr {
+		font-size: 18px;
+		font-weight: 400;
+		color: #9d9d9d;
+		max-width: 250px;line-height: 20px;}
+		.prod_descr div {	
+			margin-top: 20px;
+		}
+		.prod_descr div:first-child {	
+			margin-top: 20px;
+			font-weight: 300;
+		}
+		.prod_descr li {
+			display: block;
+		}
+		.prod_disp_buttons {
+			margin-top: 35px;
+		}
+		.see_also_label {
+			font-size: 20px;
+			text-transform: uppercase;
+			color: #255CA2;
+			margin-top: 20px;
+		}
+		.see_also .arrow_next, .see_also .arrow_prev {
+			top: 140px;
+		} 
+		.see_also .arrow_next {
+			left: 1159px;
+		}
+		.see_also .featured_prods .prod_thumb {
 		/*margin: 0;
 		padding: 0;*/
 	}
@@ -643,10 +643,15 @@ footer .content .footer_foot {
 	.project_foto_area .active {
 		display: inline-block;
 	}
-	.prod_pics li {
+	.prod_pics {
+		width: 464px;
+		height: 395px;
+	}
+	
+	.carousel_show li {
 		display: none;
 	}
-	.prod_pics .active {
+	.carousel_show .active {
 		display: inline-block;
 	}
 	/* Clearfix */

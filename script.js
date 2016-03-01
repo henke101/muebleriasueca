@@ -45,14 +45,44 @@
     });
     $(".carousel").each(function(){
     	var $carousel = $(this);
-    	var $indArr = $(this).find(".carousel_ind li");
+    	var $indicatorArray = $(this).find(".carousel_ind li");
+    	var $next = $(this).find(".arrow_next");
+    	var $prev = $(this).find(".arrow_prev");
 
-    	$indArr.on("click", function(evt){
+    	function clickArrow (evt, dir){
     		evt.preventDefault();
-    		$indArr.removeClass('active');
+    		var oldIndex = $carousel.find(".carousel_show .active").index();
+    		
+    		if (dir == "next"){
+    			var newIndex = oldIndex+1;
+    			if ( newIndex >= $carousel.find(".carousel_show li").length) {
+    				newIndex = 0;
+    			}	
+    		}
+    		if (dir == "prev"){
+    			var newIndex = oldIndex-1;	
+    			if ( newIndex < 0) {
+    				newIndex = $carousel.find(".carousel_show li").length-1;
+    			}
+    		}
+    		$carousel.find(".carousel_show li").removeClass('active');
+    		$carousel.find(".carousel_show li:eq("+ newIndex +")").addClass('active');
+    		$carousel.find(".carousel_ind li").removeClass('active');
+    		$carousel.find(".carousel_ind li:eq(" + newIndex + ")").addClass('active');
+    	};
+
+    	$indicatorArray.on("click", function(evt){
+    		evt.preventDefault();
+    		$indicatorArray.removeClass('active');
     		$(this).addClass('active');
     		$carousel.find(".carousel_show li").removeClass('active');
     		$carousel.find(".carousel_show li:eq("+$(this).index()+")").addClass('active');
-    		console.log($(this).index());
     	});
+    	$next.on("click", function(evt){
+    		clickArrow (evt, "next");
+    	});
+    	$prev.on("click", function(evt){
+    		clickArrow (evt, "prev");
+    	});
+
     });
