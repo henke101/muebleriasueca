@@ -23,7 +23,9 @@
 	</div>
 	<div class="find_us">
 		<h1 class="intro_title find_us_title">Encuéntranos</h1>
-		<img src="maps.png" alt="Google maps" >
-	</div>
+		<iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1803.6288198071984!2d-57.58057134202253!3d-25.29554657093352!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjXCsDE3JzQ0LjAiUyA1N8KwMzQnNDYuMSJX!5e0!3m2!1ssv!2sse!4v1456804033070" frameborder="0" allowfullscreen></iframe>
+	</iframe>
+</iframe>
+</div>
 </div>
 

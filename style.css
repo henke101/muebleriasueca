@@ -394,8 +394,9 @@ footer .content .footer_foot {
 .find_us {
 	padding-bottom: 80px;
 }
-.find_us img {
+.find_us div {
 	width: 100%;
+	height: 320px;
 }
 .home_top{
 	margin-bottom: 10px;
