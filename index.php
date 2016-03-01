@@ -86,7 +86,8 @@ if(!$file) {
       </div>
       <div>  
         <h1>Instagram</h1>
-        <a class="instagram_pic" href="https://www.instagram.com/muebleriasueca/">
+        <iframe src="http://snapwidget.com/in/?u=bXVlYmxlcmlhc3VlY2F8aW58MTI4fDN8Mnx8bm98NXxub25lfG9uU3RhcnR8bm98bm8=&ve=010316" title="Instagram Widget" class="snapwidget-widget" allowTransparency="true" frameborder="0" scrolling="no" style="border:none; overflow:hidden; width:399px; height:266px"></iframe>
+        <!-- <a class="instagram_pic" href="https://www.instagram.com/muebleriasueca/">
           <img src="http://placehold.it/128x128" alt="Foto de la página de Instagram" >
         </a>
         <a class="instagram_pic" href="https://www.instagram.com/muebleriasueca/">
@@ -104,7 +105,7 @@ if(!$file) {
         </a>
         <a class="instagram_pic" href="https://www.instagram.com/muebleriasueca/">
           <img src="http://placehold.it/128x128" alt="Foto de la página de Instagram" >
-        </a>
+        </a> -->
 
       </div>
       <div class="footer_foot">
