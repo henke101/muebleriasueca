@@ -1,19 +1,19 @@
 <div class="home_top cf">
 	<div class="home_floor_calc">
-			<h1 class="home_floor_name">Hora de cambiar suelos?</h1>
-			<p class="home_floor_descr"> Our floors are much more cheap than in the other stores and are fucking amazing and all that. You’d be a retard not to buy them! Starting from only 99.000 Gs/m<sup>2</sup>. Use the calculator to see your price!
-			</p>
-			<a class="go_to_floor_page" href="?page=floors">Go to the floor special</a>
-			<div class="floor_text_calc">
-				<form>
-					<input class="floor_input_spinner" type="number" placeholder="Por ejemplo 25 m2"  min="0"><br>
-					<input class="floor_input_submit" type="submit" value="Calcular">
-				</form>
+		<h1 class="home_floor_name">Hora de cambiar suelos?</h1>
+		<p class="home_floor_descr"> Our floors are much more cheap than in the other stores and are fucking amazing and all that. You’d be a retard not to buy them! Starting from only 99.000 Gs/m<sup>2</sup>. Use the calculator to see your price!
+		</p>
+		<a class="go_to_floor_page" href="?page=floors">Go to the floor special</a>
+		<div class="floor_text_calc">
+			<form class="floor_form">
+				<input class="floor_input_spinner" type="number" placeholder="Por ejemplo 25 m2"  min="0"><br>
+				<input class="floor_input_submit" type="submit" value="Calcular">
 				<div class="home_show_price">
-					<p class="home_price_descr">Tu precio total sería</p>
-					<p class="home_total_price">98.485.000 Gs</p>
+					<p class="home_price_descr price_descr" id="text_homefloor">Tu precio total sería</p>
+					<p class="home_total_price total_price" id="price_homefloor">98.485.000 Gs</p>
 				</div>
-			</div>
+			</form>
+		</div>
 	</div>
 	<div class="home_carousel">
 		<img src="carousel_bg.png" alt="bg_image">
@@ -78,10 +78,10 @@
 		- Latin guy, Rome, Italy
 	</p> -->
 </div>
-	<ul class="carousel_ind testimonial_buttons">
-		<li><a href=""></a></li>
-		<li class="active"><a  href=""></a></li>
-		<li><a href=""></a></li>
-		<li><a href=""></a></li>
-	</ul>
+<ul class="carousel_ind testimonial_buttons">
+	<li><a href=""></a></li>
+	<li class="active"><a  href=""></a></li>
+	<li><a href=""></a></li>
+	<li><a href=""></a></li>
+</ul>
 </div>
