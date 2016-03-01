@@ -52,8 +52,8 @@
 </section>
 <p class="see_also_label">Véase también</p>
 <section class="see_also carousel">
-	<a class="arrow_prev" href=""></a>
-	<a class="arrow_next" href=""></a>
+	<!--<a class="arrow_prev" href=""></a>
+	<a class="arrow_next" href=""></a> -->
 	<div class="featured_prods carousel_show"> <!-- @TODO Make ul of the articles?-->
 		<article class="prod_thumb">
 			<div class="prod_thumb_text">
