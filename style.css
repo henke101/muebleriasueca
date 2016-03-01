@@ -613,6 +613,10 @@ footer .content .footer_foot {
 	.see_also .arrow_next {
 		left: 1159px;
 	}
+	.see_also .featured_prods .prod_thumb {
+		/*margin: 0;
+		padding: 0;*/
+	}
 	.featured_prods .prod_thumb {
 		margin-bottom: 0; 
 	}
