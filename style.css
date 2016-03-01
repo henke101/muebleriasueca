@@ -522,6 +522,12 @@ footer .content .footer_foot {
 	/* line-height: 80px; */
 	padding: 26px;
 }
+.testimonial li {
+	display: none;
+}
+.testimonial .active {
+	display: inline-block;
+}
 .carousel_ind li {
 	display: inline-block;
 	width: 14px;
@@ -635,6 +641,12 @@ footer .content .footer_foot {
 		display: none;
 	} 
 	.project_foto_area .active {
+		display: inline-block;
+	}
+	.prod_pics li {
+		display: none;
+	}
+	.prod_pics .active {
 		display: inline-block;
 	}
 	/* Clearfix */

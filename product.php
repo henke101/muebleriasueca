@@ -8,13 +8,18 @@
 			<li><p>LACK</p></li>
 		</ol>
 	</nav>
-	<div class="prod_display_foto">
-		<img src="prod_lack.png" alt="Mesa Lack">
+	<div class="prod_display_foto carousel">
+		<ul class="prod_pics carousel_show">
+		<li class="active"><img src="prod_lack.png" alt="Mesa Lack"></li>
+		<li><img src="prod_lack.png" alt="Mesa Lack"></li>
+		<li><img src="prod_lack.png" alt="Mesa Lack"></li>
+		<li><img src="prod_lack.png" alt="Mesa Lack"></li>
+		</ul>
 		<a class="arrow_prev" href=""></a>
 		<a class="arrow_next" href=""></a>
 		<ul class="carousel_ind prod_disp_buttons">
-			<li><a href=""></a></li>
-			<li class="active"><a  href=""></a></li>
+			<li class="active"><a href=""></a></li>
+			<li><a  href=""></a></li>
 			<li><a href=""></a></li>
 			<li><a href=""></a></li>
 		</ul>
@@ -46,10 +51,10 @@
 </div>
 </section>
 <p class="see_also_label">Véase también</p>
-<section class="see_also">
+<section class="see_also carousel">
 	<a class="arrow_prev" href=""></a>
 	<a class="arrow_next" href=""></a>
-	<div class="featured_prods">
+	<div class="featured_prods carousel_show"> <!-- @TODO Make ul of the articles?-->
 		<article class="prod_thumb">
 			<div class="prod_thumb_text">
 				<h1>MALM</h1>

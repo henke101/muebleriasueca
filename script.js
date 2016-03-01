@@ -43,3 +43,16 @@
     		
     	});
     });
+    $(".carousel").each(function(){
+    	var $carousel = $(this);
+    	var $indArr = $(this).find(".carousel_ind li");
+
+    	$indArr.on("click", function(evt){
+    		evt.preventDefault();
+    		$indArr.removeClass('active');
+    		$(this).addClass('active');
+    		$carousel.find(".carousel_show li").removeClass('active');
+    		$carousel.find(".carousel_show li:eq("+$(this).index()+")").addClass('active');
+    		console.log($(this).index());
+    	});
+    });

@@ -16,9 +16,9 @@
 			</form>
 		</div>
 	</div>
-	<div class="home_carousel">
-		<img src="carousel_bg.png" alt="bg_image">
-		<div class="home_carousel_text">
+	<div class="home_carousel carousel">
+		<img src="carousel_bg.png" alt="bg_image"> <!--  @TODO Change from img to BG image! -->
+		<div class="home_carousel_text carousel_show" >
 			<p>CAMA Henrik</p>
 			<p>2.000.000 Gs</p>
 		</div>
@@ -68,21 +68,32 @@
 		</a>
 	</article>
 </div>
-<div class="testimonials_carousel">
-	<div class="testimonial">
-		<p>
-			“That Muebleria Sueca shit, it was aight, it was aighty ouknowI'msayin, that shit was aight, it was cool. But my shit is J--more John Blaze than that! I got John Blaze shit”
-		</p>
-		<p>- The Madd Rapper, N.Y, USA</p>
-	<!-- <p>
-		“Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut posuere consectetur massa. Vivamus accumsan convallis eleifend. Praesent imperdiet placerat nibh et posuere.” <br>
-		- Latin guy, Rome, Italy
-	</p> -->
-</div>
-<ul class="carousel_ind testimonial_buttons">
-	<li><a href=""></a></li>
-	<li class="active"><a  href=""></a></li>
-	<li><a href=""></a></li>
-	<li><a href=""></a></li>
-</ul>
+<div class="testimonials_carousel carousel">
+	<ul class="testimonial carousel_show">
+		<li class="active"><p>
+			“That Muebleria Sueca shit, it was aight, it was aighty ouknowI'msayin, that shit was aight, it was cool. But my shit is J--more John Blaze than that! I got John Blaze shit”</p>
+			<p>- The Madd Rapper, N.Y, USA</p>
+		</li>
+		<li><p>
+			“Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut posuere consectetur massa. Vivamus accumsan convallis eleifend. Praesent imperdiet placerat nibh et posuere.” </p>
+			<p>- Latin guy, Rome, Italy
+			</p>
+		</li>
+		<li><p>
+			“shjgfsdhjgfshjdgfhsjdgfjhsdgfhjsdgfhjsgdfhjsdgr adipiscing elit. Ut posuere consectetur massa. Vivamus accumsan convallis eleifend. Praesent imperdiet placerat nibh et posuere.” </p>
+			<p>- Latin guy, Rome, Italy
+			</p>
+		</li>
+		<li><p>
+			“13245678/9465132155646 3213132132 321321321321321 321321654654654 987897 consectetur massa. Vivamus accumsan convallis eleifend. Praesent imperdiet placerat nibh et posuere.” </p>
+			<p>- Latin guy, Rome, Italy
+			</p>
+		</li>
+	</ul>
+	<ul class="carousel_ind testimonial_buttons">
+		<li class="active"><a href=""></a></li>
+		<li><a  href=""></a></li>
+		<li><a href=""></a></li>
+		<li><a href=""></a></li>
+	</ul>
 </div>
