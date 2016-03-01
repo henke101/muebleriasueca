@@ -8,6 +8,7 @@
 			<form class="floor_form">
 				<input class="floor_input_spinner" type="number" placeholder="Por ejemplo 25 m2"  min="0"><br>
 				<input class="floor_input_submit" type="submit" value="Calcular">
+				<input class="price_floor" type="hidden" value="99000">
 				<div class="home_show_price">
 					<p class="home_price_descr price_descr" id="text_homefloor">Tu precio total sería</p>
 					<p class="home_total_price total_price" id="price_homefloor">98.485.000 Gs</p>

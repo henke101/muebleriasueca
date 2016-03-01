@@ -193,10 +193,10 @@ footer .content .footer_foot {
 	/*position: absolute;
     top: 38px;
     left: 32px;*/
-    position: absolute;
-    max-width: 220px;
-    top: 24px;
-    left: 37px;
+	position: absolute;
+	max-width: 220px;
+	top: 24px;
+	left: 37px;
 }
 .prod_thumb:hover {
 	border-color: rgba(0,0,0,0.09);

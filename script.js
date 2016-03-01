@@ -3,13 +3,11 @@
 
     	$form.on("submit", function(evt) {
     		evt.preventDefault();
-    		var $value = parseInt($form.find("input[type='number']").val())*99000;
     		$form.find("p").css('visibility', 'visible');
-    		$form.find(".total_price").text(parsePrice($value) + " Gs");
     	});
     	$form.on("change", function(evt) {
     		evt.preventDefault();
-    		var $value = parseInt($form.find("input[type='number']").val())*99000;
+    		var $value = parseInt($form.find("input[type='number']").val())*$form.find("input[class='price_floor']").val();
     		$form.find(".total_price").text(parsePrice($value) + " Gs");
     	});
     });

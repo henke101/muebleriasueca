@@ -24,6 +24,7 @@
 				<form class="floor_form" id="calc_slatten">Calcule el precio total aquí<br>
 					<input class="floor_input_spinner" type="number" placeholder="Por ejemplo 25 m2"  min="0"><br>
 					<input class="floor_input_submit" type="submit" value="Calcular">
+					<input class="price_floor" type="hidden" value="99000">
 					<p class="floors_price_descr price_descr" id="text_slatten"> Tu precio total sería</p>
 					<p class="floors_total_price total_price" id="price_slatten"> 1.485.000 Gs</p>
 				</form>
@@ -61,6 +62,7 @@
 				<form class="floor_form" id="calc_tundra">Calcule el precio total aquí<br>
 					<input class="floor_input_spinner" type="number" placeholder="Por ejemplo 25 m2"  min="0"><br>
 					<input class="floor_input_submit" type="submit" value="Calcular">
+					<input class="price_floor" type="hidden" value="129000">
 					<p class="floors_price_descr price_descr" id="text_tundra"> Tu precio total sería</p>
 					<p class="floors_total_price total_price" id="price_tundra"> 88.485.000 Gs</p>
 				</form>
